@@ -1,0 +1,5 @@
+ go mod init adb
+
+go get -u github.com/go-sql-driver/mysql
+
+untuk build apk: go build app.go
