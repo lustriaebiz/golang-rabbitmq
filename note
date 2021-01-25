@@ -1,5 +1,6 @@
  go mod init adb
 
 go get -u github.com/go-sql-driver/mysql
+go get -u github.com/streadway/amqp
 
 untuk build apk: go build app.go
