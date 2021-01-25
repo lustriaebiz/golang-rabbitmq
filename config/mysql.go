@@ -7,7 +7,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-const username, password, database string = "root", "", "bni-autodebet"
+const username, password, database string = "root", "", "bni-autodebet?parseTime=true"
 
 var con = fmt.Sprintf("%v:%v@/%v", username, password, database)
 
